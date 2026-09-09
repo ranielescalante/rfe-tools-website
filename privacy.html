@@ -32,21 +32,76 @@
 
 
 <main>
-<section class="page-hero"><div class="container"><div class="kicker">RFE Policy</div><h1>Privacy Policy</h1><p>How RFE Chrome tools handle files, browser content, settings, and support communications.</p></div></section>
+<section class="page-hero"><div class="container"><div class="kicker">RFE Privacy & Transparency</div><h1>Privacy Policy</h1><p>A clear explanation of what RFE Chrome tools access, why they access it, where processing occurs, and when information may be shared.</p></div></section>
 <div class="container content-wrap">
-<aside class="side-nav"><a href="#scope">Scope</a><a href="#data">Data Handling</a><a href="#tools">By Tool</a><a href="#sharing">Sharing</a><a href="#retention">Retention</a><a href="#security">Security</a><a href="#limited-use">Limited Use</a><a href="#contact">Contact</a></aside>
+<aside class="side-nav">
+<a href="#summary">Summary</a><a href="#scope">Scope</a><a href="#categories">Data Categories</a>
+<a href="#tools">By Tool</a><a href="#permissions">Permissions</a><a href="#sharing">Sharing</a>
+<a href="#limited-use">Limited Use</a><a href="#retention">Retention</a><a href="#security">Security</a>
+<a href="#choices">Your Choices</a><a href="#children">Children</a><a href="#changes">Changes</a><a href="#contact">Contact</a>
+</aside>
 <article class="prose">
-<div class="notice"><strong>Effective date:</strong> September 9, 2026. This policy applies to RFE’s H5 Validator, Pixel Comparer, Ad Comparer, Side Comparer, and this website.</div>
-<section id="scope"><h2>1. Scope</h2><p>RFE develops browser-based utilities for creative QA and comparison. This policy explains the categories of information the tools may access to provide their user-facing features and how that information is handled.</p></section>
-<section id="data"><h2>2. General Data Handling</h2><p>RFE tools are designed around local browser workflows. Files or images you deliberately select for validation or comparison are processed in the browser for the requested task. RFE does not operate an account system, advertising network, analytics profile, or central upload service for these tools.</p><p>Some tools may store user preferences or comparison state using Chrome’s local extension storage so settings can persist between sessions. Local extension storage remains on the user’s browser profile unless removed by the user, Chrome, or the extension.</p></section>
-<section id="tools"><h2>3. Tool-Specific Practices</h2><h3>H5 Validator</h3><p>When you select an HTML5 ZIP package, H5 Validator reads the package contents in the browser to perform validation checks. The selected creative files are not intentionally transmitted to an RFE server as part of the validation workflow.</p><h3>Pixel Comparer</h3><p>User-selected comparison images are loaded into the browser for visual comparison. The comparison workflow is designed to use local browser object references rather than upload the selected images to RFE.</p><h3>Ad Comparer</h3><p>Ad Comparer may access URLs or local file locations that you provide in order to display and compare ad content. It uses Chrome side-panel functionality and may save comparison settings locally using Chrome storage. Because webpages can contain user or site data, Ad Comparer only uses page access to support comparison functionality initiated by the user.</p><h3>Side Comparer</h3><p>Side Comparer provides a Chrome side-panel workspace for user-directed comparison. Content supplied to the comparison interface is used to provide that comparison experience.</p></section>
-<section id="sharing"><h2>4. Sale, Sharing, and Advertising</h2><p>RFE does not sell extension user data. RFE does not use extension user data for personalized advertising, credit decisions, or data-broker activity. RFE does not transfer extension user data to third parties except when necessary to provide a user-requested feature, comply with law, or protect users and the service.</p></section>
-<section id="retention"><h2>5. Retention and Deletion</h2><p>RFE does not maintain a central repository of the creative files selected in the local workflows described above. Locally stored extension settings may remain in Chrome storage until the extension data is cleared or the extension is removed. Support emails are retained only as reasonably necessary to respond to requests, maintain support history, and address abuse or legal obligations.</p></section>
-<section id="security"><h2>6. Security</h2><p>RFE aims to minimize requested permissions and use browser-provided APIs for extension functionality. When external network communication is required by a tool or destination selected by a user, security also depends on the destination website and browser environment.</p></section>
-<section id="limited-use"><h2>7. Chrome Web Store Limited Use</h2><p>RFE’s use of information received from Chrome or Google APIs will adhere to the Chrome Web Store User Data Policy, including its Limited Use requirements. User data is used only as necessary to provide or improve the disclosed user-facing functionality of the relevant extension, subject to applicable law and policy.</p></section>
-<section><h2>8. Changes to This Policy</h2><p>This policy may be updated when an RFE tool changes its functionality, permissions, or data practices. The effective date at the top of this page will be updated when material changes are published.</p></section>
-<section id="contact"><h2>9. Contact</h2><p>For privacy or support questions, contact <a href="mailto:raniel.escalante@gmail.com">raniel.escalante@gmail.com</a>.</p></section>
-<p class="disclaimer">This privacy policy is intended to accurately describe the current RFE tools based on their implemented functionality. It is not legal advice.</p>
+<div class="notice"><strong>Effective date:</strong> September 9, 2026<br><strong>Developer:</strong> RFE<br><strong>Contact:</strong> <a href="mailto:raniel.escalante@gmail.com">raniel.escalante@gmail.com</a></div>
+
+<section id="summary"><h2>1. Privacy Summary</h2>
+<p>RFE develops H5 Validator, Pixel Comparer, Ad Comparer, and Side Comparer for creative-quality-assurance and comparison workflows. The extensions are designed to process user-selected content locally in the browser whenever the feature permits. RFE does not sell extension user data and does not use extension user data for personalized, retargeted, or interest-based advertising.</p>
+<p>This policy describes the current intended data practices of the RFE tools. The permissions and Chrome Web Store privacy disclosures for each published extension must remain consistent with its actual behavior and this policy.</p></section>
+
+<section id="scope"><h2>2. Scope</h2>
+<p>This policy applies to the RFE website and the RFE Chrome extensions named above. “User data” in this policy includes information or content a user deliberately supplies to an extension and information an extension accesses through Chrome permissions to perform a disclosed user-facing function.</p></section>
+
+<section id="categories"><h2>3. Categories of Data Accessed or Processed</h2>
+<p>Depending on the extension and feature used, RFE tools may process:</p>
+<ul>
+<li><strong>User-selected files and images:</strong> creative ZIP packages, HTML5 assets, screenshots, reference images, or comparison images deliberately selected by the user.</li>
+<li><strong>User-provided URLs and displayed web content:</strong> where a comparison feature requires loading a URL or displaying content selected by the user.</li>
+<li><strong>Extension settings and workflow state:</strong> preferences, dimensions, positions, or other configuration required to preserve the user’s workspace.</li>
+<li><strong>Technical support information:</strong> information a user voluntarily sends by email, such as extension version, Chrome version, screenshots, reproduction steps, and problem descriptions.</li>
+</ul>
+<p>RFE does not intentionally request payment-card information, government identification numbers, passwords, health information, or other sensitive information for these tools. Users should not submit such information through support communications.</p></section>
+
+<section id="tools"><h2>4. How Each Tool Uses Data</h2>
+<h3>H5 Validator</h3><p>When a user selects an HTML5 creative package, H5 Validator reads the selected package and its contained assets to perform the validation requested by the user. The purpose is limited to identifying relevant creative-QA issues. The selected package is intended to be processed locally and is not intentionally uploaded to an RFE server as part of the validation workflow.</p>
+<h3>Pixel Comparer</h3><p>Pixel Comparer processes images deliberately selected by the user so the images can be displayed and compared. The comparison workflow is intended to use browser-local object references and processing. RFE does not intentionally upload the selected comparison images to an RFE server as part of this workflow.</p>
+<h3>Ad Comparer</h3><p>Ad Comparer may access a URL or local content deliberately supplied by the user so that content can be displayed and compared. When the user asks the extension to load an external URL, the browser necessarily communicates with that destination and the destination may receive ordinary network information such as the user’s IP address and browser request information under that destination’s own privacy practices. This communication is between the browser and the user-selected destination and is not an RFE sale of user data. Ad Comparer may use Chrome local storage for settings or comparison state required for its user-facing workflow.</p>
+<h3>Side Comparer</h3><p>Side Comparer processes content the user deliberately places into its comparison interface to provide a side-by-side review experience. The content is used for that user-requested comparison function.</p></section>
+
+<section id="permissions"><h2>5. Chrome Permissions</h2>
+<p>RFE intends to request only Chrome permissions necessary for the disclosed single purpose and user-facing features of each extension. Permissions are not intended to be requested merely for possible future functionality. Where a tool requires access to a webpage, URL, local file, side panel, or local extension storage, that access is used to provide the corresponding comparison, validation, display, or settings feature.</p>
+<p>If an extension’s functionality changes in a way that requires additional data access or permissions, RFE will update the applicable disclosures and this policy as appropriate before relying on the new data practice.</p></section>
+
+<section id="sharing"><h2>6. Data Sharing, Sale, and Advertising</h2>
+<p>RFE does not sell extension user data. RFE does not transfer extension user data for personalized advertising, retargeting, interest-based advertising, creditworthiness, lending, or data-broker purposes.</p>
+<p>RFE does not intentionally share user-selected creative files or comparison content with third parties through an RFE-operated server. A user-directed request to load a third-party URL necessarily sends a request to that third-party destination. Information voluntarily sent by email is also processed by the user’s and RFE’s email service providers as necessary to deliver the communication.</p>
+<p>RFE may disclose information when required by applicable law or when reasonably necessary to protect security, investigate abuse, or protect legal rights. If RFE later introduces a service provider that receives extension user data, this policy will be updated to identify the relevant category or party and purpose before such sharing is relied upon.</p></section>
+
+<section id="limited-use"><h2>7. Chrome Web Store Limited Use Disclosure</h2>
+<p>RFE’s use of user data obtained through Chrome extension permissions is limited to providing or improving the extension’s disclosed single purpose and user-facing features. RFE will not use or transfer that data for personalized, retargeted, or interest-based advertising.</p>
+<p>RFE will not transfer such user data except when necessary to provide or improve the disclosed user-facing feature, to comply with applicable law, for security purposes such as investigating abuse, or as otherwise permitted by the Chrome Web Store User Data Policy.</p>
+<p>RFE does not permit humans to read user data obtained through extension permissions except when the user gives affirmative consent for a specific support purpose, when necessary for security or abuse investigation, when required by law, or where the data has been appropriately aggregated and anonymized for permitted internal operations.</p></section>
+
+<section id="retention"><h2>8. Retention and Deletion</h2>
+<p>RFE does not intentionally maintain a central repository of user-selected creative files processed in the local workflows described above. Browser-local settings or state may remain in Chrome’s extension storage until cleared by the user, removed by Chrome, or deleted when the extension is uninstalled, depending on Chrome’s behavior.</p>
+<p>Support emails may be retained for as long as reasonably necessary to answer the request, maintain useful support history, protect against abuse, or meet legal obligations. Users may request deletion of support information under RFE’s control by contacting the email address below, subject to legitimate legal or security retention requirements.</p></section>
+
+<section id="security"><h2>9. Security</h2>
+<p>RFE uses a data-minimization approach: access should be limited to what is necessary for the extension’s disclosed functionality, and local browser processing is preferred where practical. No method of electronic processing or transmission is completely secure, so absolute security cannot be guaranteed.</p></section>
+
+<section id="choices"><h2>10. User Choices and Control</h2>
+<p>Users control which files, images, URLs, or other content they deliberately provide to the tools. Chrome provides controls for extension permissions and extension removal. Users can uninstall an RFE extension at any time through Chrome. Where applicable, locally stored extension data can be cleared through Chrome’s extension or site-data controls.</p></section>
+
+<section id="children"><h2>11. Children</h2>
+<p>RFE tools are general-purpose creative-QA utilities and are not directed to children. RFE does not knowingly design these tools to collect personal information from children.</p></section>
+
+<section id="changes"><h2>12. Changes to This Policy</h2>
+<p>RFE may update this policy when tool functionality, Chrome permissions, service providers, or legal and platform requirements change. Material changes will be reflected on this page and the effective date will be updated. Data practices will not be expanded merely by changing this policy; the extension’s behavior and required user disclosures must also remain consistent with applicable requirements.</p></section>
+
+<section id="contact"><h2>13. Contact</h2>
+<p>For privacy questions, support requests, or requests concerning support information under RFE’s control, contact:</p>
+<p><strong>RFE</strong><br><a href="mailto:raniel.escalante@gmail.com">raniel.escalante@gmail.com</a></p></section>
+
+<div class="notice"><strong>Transparency note:</strong> RFE is an independent developer. RFE and its tools are not affiliated with, sponsored by, or endorsed by Google or the Chrome Web Store.</div>
+<p class="disclaimer">This document is intended to accurately disclose RFE’s current product practices and support Chrome Web Store compliance. It is not legal advice and does not replace obligations imposed by applicable law.</p>
 </article></div></main>
 
 

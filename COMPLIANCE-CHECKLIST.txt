@@ -1,0 +1,34 @@
+RFE WEBSITE + CHROME WEB STORE COMPLIANCE CHECKLIST
+Updated: September 9, 2026
+
+WEBSITE
+[ ] HTTPS works on every public page.
+[ ] Home, Support, Privacy, Terms and email links work.
+[ ] No broken images, CSS, scripts, or 404 links.
+[ ] Privacy page is public without login.
+[ ] Privacy page URL is entered in the Chrome Web Store Developer Dashboard.
+[ ] Support email is monitored.
+[ ] Claims and screenshots exactly match current extension behavior.
+[ ] Do not claim Google endorsement or official status.
+
+EACH EXTENSION
+[ ] Has one narrow, easy-to-understand single purpose.
+[ ] Manifest requests only the narrowest permissions needed now.
+[ ] Remove unused/future-proof permissions and host permissions.
+[ ] Chrome Web Store privacy declarations match code AND privacy policy.
+[ ] Every collected/accessed data category is necessary for the disclosed purpose.
+[ ] Browsing activity is accessed only when required for a prominently disclosed user-facing feature.
+[ ] No undisclosed collection, analytics, tracking, ads, or remote data transfer.
+[ ] If any third party/service provider receives user data, identify it/purpose in the privacy policy and Store disclosures.
+[ ] Limited Use requirements are followed in code and operations.
+[ ] Listing title, description, screenshots, icons, promo images and category are accurate/current.
+[ ] No misleading installation buttons or claims.
+[ ] Extension is functional and provides meaningful utility.
+[ ] Manifest V3 and applicable technical requirements are satisfied.
+[ ] Test all features from a clean Chrome profile before submission.
+[ ] Re-audit this checklist whenever code, permissions, hosting, analytics, or third-party services change.
+
+IMPORTANT
+A website/privacy policy cannot by itself guarantee legal or Chrome Web Store compliance.
+Compliance depends on the actual extension code, permissions, data flows, Store declarations,
+marketing/listing, and applicable laws for the users/markets involved.
