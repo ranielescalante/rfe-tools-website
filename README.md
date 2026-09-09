@@ -21,3 +21,6 @@ Contact: raniel.escalante@gmail.com
 Render settings:
 - Build Command: echo "Static site ready"
 - Publish Directory: .
+
+## v3 change
+Tool icons were rebuilt without glow/blur effects for a sharper flat-vector look.
