@@ -1,12 +1,23 @@
-# RFE Tools Website
+# RFE Tools Website v2
 
-Official support and policy website for H5 Validator, Pixel Comparer, Ad Comparer, and Side Comparer.
+This version fixes the CSS-loading issue by keeping all site assets at the repository root.
+
+Files:
+- index.html
+- support.html
+- privacy.html
+- terms.html
+- styles.css
+- script.js
+- rfe-logo.svg
+- h5-validator.svg
+- pixel-comparer.svg
+- ad-comparer.svg
+- side-comparer.svg
+- render.yaml
 
 Contact: raniel.escalante@gmail.com
 
-## Render deployment
-Create a Render Static Site connected to this repository.
-- Branch: main
-- Build Command: leave blank if allowed; otherwise `echo "Static site ready"`
-- Publish Directory: `.`
-- Auto-Deploy: enabled
+Render settings:
+- Build Command: echo "Static site ready"
+- Publish Directory: .
